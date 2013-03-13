@@ -1,0 +1,4 @@
+nhcalc
+======
+
+Python nethack calculator
