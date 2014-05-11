@@ -1,8 +1,10 @@
+#!/usr/bin/env python
+
 from setuptools import setup
 from nhcalc import __version__
 
 setup(
-    name = "nhcalc"
+    name = "nhcalc",
     version = __version__,
     author = "Geoffrey Spear",
     author_email = "geoffspear@gmail.com",
