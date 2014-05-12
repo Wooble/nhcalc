@@ -111,7 +111,6 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'logo': 'logo.png',
     'github_user': 'Wooble',
     'github_repo': 'nhcalc',
     'github_banner': 'true',
