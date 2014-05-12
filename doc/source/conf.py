@@ -112,7 +112,7 @@ html_theme = 'alabaster'
 # documentation.
 html_theme_options = {
     'logo': 'logo.png',
-    'github_user': 'wooble',
+    'github_user': 'Wooble',
     'github_repo': 'nhcalc',
     'github_banner': 'true',
     'travis_button': 'true',
