@@ -1,17 +1,14 @@
 language: python
-python: 2.7
-env:
-  - TOX_ENV="py27"
-  - TOX_ENV="py33"
-  - TOX_ENV="py34"
-  - TOX_ENV="pypy"
-  - TOX_ENV="flake8"
-  - TOX_ENV="docs"
 
 install:
   - pip install tox
   - pip install -r requirements.txt
+  - pip install coveralls
 
 script:
-  - tox -e $TOX_ENV
+  - coverage erase
+  - tox
 
+after_success:
+  - coverage combine
+  - coveralls
